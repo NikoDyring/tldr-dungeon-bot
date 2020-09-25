@@ -3,7 +3,6 @@ import config from '../configuration'
 import log from './log'
 import { commands } from '../commands'
 
-
 export function setupClient () {
   const client = new Discord.Client()
 
@@ -12,12 +11,14 @@ export function setupClient () {
     process.exit(1)
   }
 
-  client.on('ready', async () => {
+  client.on('ready', async (): Promise<string> => {
     log.success('Discord connected.')
     const admins = await Promise.all(
-      config.admins.map(admin => client.users.fetch(admin))
+      config.admins.map((admin) => client.users.fetch(admin))
     )
-    admins.map(admin => admin.send(`TL:DR Dungeon Guide initiated.`))
+    await admins.map(admin => admin.send('TL;DR Dungeon Guide initiated.'))
+
+    return 'noice'
   })
 
   client.on('message', message => {

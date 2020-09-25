@@ -10,7 +10,6 @@ class Uid extends Command {
   getUid (message: Message) {
     return message.author.id
   }
-
 }
 
 export default new Uid()

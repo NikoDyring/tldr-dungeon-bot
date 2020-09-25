@@ -1,12 +1,12 @@
-import { Message, Client, Collection, MessageEmbed } from "discord.js"
-import { Command } from "../lib/command"
-import { Dungeon } from "../lib/dungeon"
+import { Message, Client, Collection, MessageEmbed } from 'discord.js'
+import { Command } from '../lib/command'
+import { Dungeon } from '../lib/dungeon'
 
-import deOtherSide from "../resources/dungeons/de-other-side"
-import hallsOfAtonement from "../resources/dungeons/halls-of-atonement"
-import mistsOfTirnaScithe from "../resources/dungeons/mists-of-tirna-scithe"
-import necroticWake from "../resources/dungeons/necrotic-wake"
-import plaguefall from "../resources/dungeons/plaguefall"
+import deOtherSide from '../resources/dungeons/de-other-side'
+import hallsOfAtonement from '../resources/dungeons/halls-of-atonement'
+import mistsOfTirnaScithe from '../resources/dungeons/mists-of-tirna-scithe'
+import necroticWake from '../resources/dungeons/necrotic-wake'
+import plaguefall from '../resources/dungeons/plaguefall'
 
 const dungeons = new Collection<string, Dungeon>([
   ['dos', deOtherSide],
@@ -23,7 +23,7 @@ class DungeonCommand extends Command {
 
   async execute (message: Message, client: Client): Promise<any> {
     const shortcut = message.content.split(' ')[1]
-    if (!shortcut || !dungeons.has(shortcut)) return message.channel.send(this.makeHelpEmbed())
+    if (!shortcut || !dungeons.has(shortcut)) return await message.channel.send(this.makeHelpEmbed())
     const dungeon = this.fetchDungeonInfo(shortcut)
     message.channel.send(this.makeEmbed(dungeon))
   }
@@ -39,7 +39,7 @@ class DungeonCommand extends Command {
       .setTitle(dungeon.name)
       .setDescription(dungeon.location)
       .setThumbnail('https://emoji.gg/assets/emoji/2043_FeelsDenmarkMan.png')
-      .addFields(dungeon.bosses.map(boss => ({name: boss.name, value: boss.mechanics})))
+      .addFields(dungeon.bosses.map(boss => ({ name: boss.name, value: boss.mechanics })))
       .setTimestamp()
       .setFooter('Powered by pnggang #forfuckzake')
     return embed
@@ -55,7 +55,7 @@ class DungeonCommand extends Command {
         { name: '!d dos', value: 'Will show TL:DR of De Other Side (dos)' },
         { name: 'Dungeons supported', value: `${dungeons.keyArray().join(', ')}` }
       )
-      return helpEmbed
+    return helpEmbed
   }
 }
 

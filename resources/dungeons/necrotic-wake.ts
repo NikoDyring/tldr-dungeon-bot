@@ -1,9 +1,9 @@
-import { Boss } from "../../lib/boss"
-import { Dungeon } from "../../lib/dungeon"
+import { Boss } from '../../lib/boss'
+import { Dungeon } from '../../lib/dungeon'
 
 export default new Dungeon('Necrotic Wake',
   'The Necrotic Wake is located in Bastion at (40.0, 55.3)',
-  'https://www.youtube.com/watch?v=PvpIn2am8YQ',[
+  'https://www.youtube.com/watch?v=PvpIn2am8YQ', [
     new Boss('Blightbone', [
       'Clear most of the room',
       '[[Heaving Retch]](https://shadowlands.wowhead.com/spell=320596/heaving-retch) cone attack that targets one player (Spawns 2 adds that fixate as well)',
@@ -26,4 +26,4 @@ export default new Dungeon('Necrotic Wake',
       'Zolramus Necromancer - Focus down because adds die when the necromancer dies.',
       'Skeletal Marauders - Frontal cleave, interrupt the fear',
       'Workshop Assistants - Face the arrow through another enemy so they get hit instead of you'])
-])
+  ])

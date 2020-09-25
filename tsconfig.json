@@ -7,7 +7,9 @@
     "noImplicitAny": true,
     "moduleResolution": "node",
     "baseUrl": ".",
-    "typeRoots": ["./types"]
+    "typeRoots": ["./types"],
+    "outDir": "dist",
+    "strictNullChecks": true
   },
   "lib": [
     "es2019"

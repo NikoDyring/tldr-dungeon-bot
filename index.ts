@@ -8,8 +8,4 @@ uncaught.addListener(function (error: Error) {
   process.exit(1)
 })
 
-try {
-  await setupClient()
-} catch (error) {
-  log.error(error)
-}
+setupClient()

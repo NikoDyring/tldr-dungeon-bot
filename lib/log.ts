@@ -10,7 +10,7 @@ const pino = Pino({
   },
   hooks: {
     // <https://github.com/pinojs/pino/blob/master/docs/api.md#logmethod>
-    logMethod(inputArgs, method) {
+    logMethod (inputArgs, method) {
       return method.call(this, {
         // <https://github.com/pinojs/pino/issues/854>
         // message: inputArgs[0],

@@ -1,4 +1,4 @@
-import { Boss } from "./boss";
+import { Boss } from './boss'
 
 export class Dungeon {
   constructor (

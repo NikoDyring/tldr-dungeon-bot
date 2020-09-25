@@ -6,21 +6,21 @@ export interface IUserDocument extends Document {
 }
 
 export interface IUserModel extends Model<IUserDocument> {
-  findByUid: (uid: string) => Promise<IUserDocument>,
+  findByUid: (uid: string) => Promise<IUserDocument>
   setCode: (uid: string, code: string) => Promise<IUserDocument>
 }
 
 const UserSchema = new mongoose.Schema({
   uid: { type: String, required: true, index: true, unique: true },
-  code: { type: String, required: true, unique: true  }
+  code: { type: String, required: true, unique: true }
 })
 
-UserSchema.statics.findByUid = function (uid: string): Promise<IUserDocument> {
-   return User.findOne({ uid }).exec()
+UserSchema.statics.findByUid = async function (uid: string): Promise<IUserDocument> {
+  return await User.findOne({ uid }).exec()
 }
 
-UserSchema.statics.setCode = function (uid: string, code: string): Promise<IUserDocument> {
-  return User.findOneAndUpdate({ uid }, { code }, {
+UserSchema.statics.setCode = async function (uid: string, code: string): Promise<IUserDocument> {
+  return await User.findOneAndUpdate({ uid }, { code }, {
     new: true,
     upsert: true
   }).exec()

@@ -28,7 +28,6 @@
     "cabin": "^8.0.5",
     "config": "^3.3.1",
     "discord.js": "^12.2.0",
-    "dotenv": "^8.2.0",
     "erlpack": "github:discord/erlpack",
     "pino": "^6.5.0",
     "qrcode": "^1.4.4",

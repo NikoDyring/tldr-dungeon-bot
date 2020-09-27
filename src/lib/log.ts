@@ -24,6 +24,7 @@ const pino = Pino({
 export default new Cabin({
   // (optional: your free API key from https://cabinjs.com)
   // key: 'YOUR-CABIN-API-KEY',
+  capture: false, /* Remove this when Cabin releases API keys */
   axe: {
     logger: process.env.NODE_ENV === 'production' ? pino : new Signale()
   }

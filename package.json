@@ -10,7 +10,7 @@
     "dev": "tsc-watch --outDir ./dist --onSuccess \"npm run start\"",
     "lint": "eslint src/**",
     "build": "tsc",
-    "test": "npm run lint"
+    "test": "npm run lint && npm run build"
   },
   "repository": "gitlab:nikodyring/tldr-dungeon-guide",
   "keywords": [

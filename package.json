@@ -11,6 +11,7 @@
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": "gitlab:nikodyring/tldr-dungeon-guide",
   "keywords": [
     "warcraft",
     "dungeons",
@@ -20,7 +21,7 @@
     "discord",
     "bot"
   ],
-  "author": "Nicholai Nissen",
+  "author": "PNG Gang",
   "license": "MIT",
   "dependencies": {
     "bufferutil": "^4.0.1",

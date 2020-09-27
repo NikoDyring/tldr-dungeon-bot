@@ -8,4 +8,6 @@ const config: Config = {
   admins: JSON.parse(process.env.ADMINS ?? '[]')
 }
 
+console.log(config)
+
 export default config

@@ -7,9 +7,9 @@ export default new Dungeon('Spires of Ascension',
     new Boss('Kin-Tara', [
       'Avoid random black bolts from the add',
       'Boss cleaves, tank should be facing boss away',
-      '[[Dark Lance]]() - Interrupt this',
+      '[[Dark Lance]](https://shadowlands.wowhead.com/spell=327481/dark-lance) - Interrupt this',
       'When flying up, spread out. Targeted player has to move out of the cloud before spear hits.',
-      'Kill boss aand add at the same time or they will enrage (Like gnome couple in Mechagon)']),
+      'Kill boss and add at the same time or they will enrage (Like gnome couple in Mechagon)']),
     new Boss('Ventunax', [
       'Stay out of shadow clouds',
       'Avoid dark bolts',

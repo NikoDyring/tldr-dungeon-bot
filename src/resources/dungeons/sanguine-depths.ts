@@ -7,8 +7,8 @@ export default new Dungeon('Sanguine Depths',
     new Boss('Kryxis the Voracious', [
       '[[Vicious Headbutt]](https://shadowlands.wowhead.com/spell=319650/vicious-headbutt) does a knockback on the tank (Dont get knocked off the edge)',
       '[[Hungering Drain]](https://shadowlands.wowhead.com/spell=319654/hungering-drain) Interrupt this',
-      '[[Juggernaut Rush]]() Stack between the boss and the player targeted',
-      '[[Severing Smash]]() Group Knockback - Soak orbs before they reach boss, soak one each.']),
+      '[[Juggernaut Rush]](https://shadowlands.wowhead.com/spell=319713/juggernaut-rush) Stack between the boss and the player targeted',
+      '[[Severing Smash]](https://shadowlands.wowhead.com/spell=319685/severing-smash) Group Knockback - Soak orbs before they reach boss, soak one each.']),
     new Boss('Executor Tarvold', [
       '[[Castigate]]() Stay spread so only the player targeted gets hit',
       'Nuke add when it spawns. The longer its up, the bigger the toxic pool.']),

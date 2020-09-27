@@ -5,7 +5,7 @@ export default new Dungeon('Sanguine Depths',
   'Sanguine Depths is located in Revendreth at (50.9, 29.9)',
   'https://www.youtube.com/watch?v=vuGQnAXsel0&feature=youtu.be', [
     new Boss('Kryxis the Voracious', [
-      '[[Vicious Headbutt]]() does a knockback on the tank (Dont get knocked off the edge)',
+      '[[Vicious Headbutt]](https://shadowlands.wowhead.com/spell=319650/vicious-headbutt) does a knockback on the tank (Dont get knocked off the edge)',
       '[[Hungering Drain]]() Interrupt this',
       '[[Juggernaut Rush]]() Stack between the boss and the player targeted',
       '[[Severing Smash]]() Group Knockback - Soak orbs before they reach boss, soak one each.']),

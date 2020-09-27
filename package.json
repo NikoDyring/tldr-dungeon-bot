@@ -12,11 +12,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "pokemon",
-    "go",
-    "friend",
-    "code",
-    "pogo",
+    "warcraft",
+    "dungeons",
+    "shadowlands",
+    "guide",
+    "raids",
     "discord",
     "bot"
   ],
@@ -28,7 +28,7 @@
     "config": "^3.3.1",
     "discord.js": "^12.2.0",
     "dotenv": "^8.2.0",
-    "erlpack": "github:discordapp/erlpack",
+    "erlpack": "github:discord/erlpack",
     "pino": "^6.5.0",
     "qrcode": "^1.4.4",
     "signale": "^1.4.0",

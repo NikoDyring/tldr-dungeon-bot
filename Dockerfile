@@ -2,9 +2,9 @@
 FROM node:14.11 as build-stage
 WORKDIR /app
 COPY package*.json ./
+ENV NODE_ENV=production
 RUN npm ci
 COPY . .
-ENV NODE_ENV=production
 RUN npm run build
 
 # Production stage

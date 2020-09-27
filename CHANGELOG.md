@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://gitlab.com/nikodyring/tldr-dungeon-guide/compare/v0.1.5...v1.0.0) (2020-09-27)
+
+
+### Features
+
+* **dungeons/sanguine-depths:** add missing links ([b9f26dc](https://gitlab.com/nikodyring/tldr-dungeon-guide/commit/b9f26dc8f9c4236defdabcc454eee13b75d0d445))
+
 ### [0.1.5](https://gitlab.com/nikodyring/tldr-dungeon-guide/compare/v0.1.4...v0.1.5) (2020-09-27)
 
 

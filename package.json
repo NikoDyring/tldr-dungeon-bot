@@ -1,6 +1,6 @@
 {
   "name": "tldr-dungeon-guide-bot",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple too long didn't read dungeon guide to help players getting into the World of Warcraft: Shadowlands dungeons easily with simplified tactics.",
   "main": "index.js",
   "type": "module",

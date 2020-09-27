@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://gitlab.com/nikodyring/tldr-dungeon-guide/compare/v0.1.2...v0.1.3) (2020-09-27)
+
+
+### Other
+
+* **package.json:** add standard-version type config ([d5512b5](https://gitlab.com/nikodyring/tldr-dungeon-guide/commit/d5512b53085d781c57738914a1efe8be342f227d))
+
 ### [0.1.2](https://gitlab.com/nikodyring/tldr-dungeon-guide/compare/v0.1.1...v0.1.2) (2020-09-27)
 
 

@@ -16,7 +16,7 @@ const UserSchema = new mongoose.Schema({
 })
 
 UserSchema.statics.findByUid = async function (uid: string): Promise<IUserDocument> {
-  return await User.findOne({ uid }).exec()
+  return await User.findOne({ uid }).exec() as IUserDocument
 }
 
 UserSchema.statics.setCode = async function (uid: string, code: string): Promise<IUserDocument> {

@@ -7,13 +7,17 @@ import hallsOfAtonement from '../resources/dungeons/halls-of-atonement'
 import mistsOfTirnaScithe from '../resources/dungeons/mists-of-tirna-scithe'
 import necroticWake from '../resources/dungeons/necrotic-wake'
 import plaguefall from '../resources/dungeons/plaguefall'
+import sanguineDepths from '../resources/dungeons/sanguine-depths'
+import spiresOfAscension from '../resources/dungeons/spires-of-ascension'
 
 const dungeons = new Collection<string, Dungeon>([
   ['dos', deOtherSide],
   ['hoa', hallsOfAtonement],
   ['mots', mistsOfTirnaScithe],
   ['nw', necroticWake],
-  ['plf', plaguefall]
+  ['plf', plaguefall],
+  ['sd', sanguineDepths],
+  ['soa', spiresOfAscension]
 ])
 
 const embedAuthor = 'TL:DR Shadowlands Dungeon Guide'
@@ -29,7 +33,7 @@ class DungeonCommand extends Command {
   }
 
   fetchDungeonInfo (shortcut: string): Dungeon {
-    return dungeons.get(shortcut)
+    return dungeons.get(shortcut) as Dungeon
   }
 
   makeEmbed (dungeon: Dungeon): MessageEmbed {

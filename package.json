@@ -66,6 +66,10 @@
       {
         "type": "build",
         "section": "Other"
+      },
+      {
+        "type": "ci",
+        "secion": "Other"
       }
     ]
   },

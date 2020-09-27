@@ -1,6 +1,6 @@
+import uncaught from 'uncaught'
 import log from './lib/log'
 import { setupClient } from './lib/client'
-import uncaught from 'uncaught'
 
 uncaught.start()
 uncaught.addListener(function (error: Error) {

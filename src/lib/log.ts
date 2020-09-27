@@ -21,6 +21,8 @@ const pino = Pino({
   }
 })
 
+pino.success = (...rest: any[]) => (pino.info as any)(...rest)
+
 export default new Cabin({
   // (optional: your free API key from https://cabinjs.com)
   // key: 'YOUR-CABIN-API-KEY',

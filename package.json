@@ -8,8 +8,9 @@
     "start:old": "node --loader ts-node/esm.mjs --experimental-specifier-resolution=node -r dotenv/config index.ts",
     "start": "node --experimental-specifier-resolution=node -r dotenv/config dist/index.js",
     "dev": "tsc-watch --outDir ./dist --onSuccess \"npm run start\"",
+    "lint": "eslint src/**",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint"
   },
   "repository": "gitlab:nikodyring/tldr-dungeon-guide",
   "keywords": [
@@ -21,6 +22,12 @@
     "discord",
     "bot"
   ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test"
+    }
+  },
   "author": "PNG Gang",
   "license": "MIT",
   "dependencies": {
@@ -53,6 +60,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
+    "husky": "^4.3.0",
     "tsc-watch": "^4.2.9"
   }
 }

@@ -13,7 +13,7 @@
     "test": "npm run lint && npm run build",
     "release": "standard-version"
   },
-  "repository": "gitlab:nikodyring/tldr-dungeon-guide",
+  "repository": "https://gitlab.com/nikodyring/tldr-dungeon-guide",
   "keywords": [
     "warcraft",
     "dungeons",

@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://gitlab.com/nikodyring/tldr-dungeon-guide/compare/v1.0.0...v1.1.0) (2020-10-01)
+
+
+### Features
+
+* **dungeon/theater-of-pain:** added Theater of Pain + links in it ([58f28b5](https://gitlab.com/nikodyring/tldr-dungeon-guide/commit/58f28b5e0a63b41f7d62bff380c6abdfc5945450))
+* **dungeons/spires-of-ascension:** add link to Dark lance ([14e3083](https://gitlab.com/nikodyring/tldr-dungeon-guide/commit/14e30832ae3ecd568b2979346de289a751a409d1))
+
 ## [1.0.0](https://gitlab.com/nikodyring/tldr-dungeon-guide/compare/v0.1.5...v1.0.0) (2020-09-27)
 
 

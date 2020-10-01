@@ -9,6 +9,7 @@ import necroticWake from '../resources/dungeons/necrotic-wake'
 import plaguefall from '../resources/dungeons/plaguefall'
 import sanguineDepths from '../resources/dungeons/sanguine-depths'
 import spiresOfAscension from '../resources/dungeons/spires-of-ascension'
+import theaterOfPain from '../resources/dungeons/theater-of-pain'
 
 const dungeons = new Collection<string, Dungeon>([
   ['dos', deOtherSide],
@@ -17,7 +18,8 @@ const dungeons = new Collection<string, Dungeon>([
   ['nw', necroticWake],
   ['plf', plaguefall],
   ['sd', sanguineDepths],
-  ['soa', spiresOfAscension]
+  ['soa', spiresOfAscension],
+  ['tot', theaterOfPain]
 ])
 
 const embedAuthor = 'TL:DR Shadowlands Dungeon Guide'

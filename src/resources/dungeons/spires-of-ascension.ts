@@ -13,7 +13,7 @@ export default new Dungeon('Spires of Ascension',
     new Boss('Ventunax', [
       'Stay out of shadow clouds',
       'Avoid dark bolts',
-      '[[]]() - Frontal cone you can dodge, tank face boss away from group.']),
+      '[[Blinding Flash]]() - Frontal cone you can dodge, tank face boss away from group.']),
     new Boss('Oryphrion', [
       'Keep spread at least 8 yards',
       '[[Charged Stomp]]() - Dispel the tank',

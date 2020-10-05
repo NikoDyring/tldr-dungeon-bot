@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://gitlab.com/nikodyring/tldr-dungeon-guide/compare/v1.1.1...v1.2.0) (2020-10-05)
+
+
+### Features
+
+* **commands/covenant:** add covenant base command ([825a4f7](https://gitlab.com/nikodyring/tldr-dungeon-guide/commit/825a4f7a38123f87661e78746a76281fb7f855c1))
+
 ### [1.1.1](https://gitlab.com/nikodyring/tldr-dungeon-guide/compare/v1.1.0...v1.1.1) (2020-10-01)
 
 ## [1.1.0](https://gitlab.com/nikodyring/tldr-dungeon-guide/compare/v1.0.0...v1.1.0) (2020-10-01)

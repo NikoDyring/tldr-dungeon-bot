@@ -74,7 +74,7 @@
     ]
   },
   "author": "PNG Gang",
-  "license": "MIT",
+  "license": "AGPL-3.0-or-later",
   "dependencies": {
     "bufferutil": "^4.0.1",
     "cabin": "^8.0.5",

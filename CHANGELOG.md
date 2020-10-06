@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://gitlab.com/nikodyring/tldr-dungeon-guide/compare/v1.2.0...v1.3.0) (2020-10-06)
+
+
+### Features
+
+* **models/dungeon:** add skeleton model ([efd1c47](https://gitlab.com/nikodyring/tldr-dungeon-guide/commit/efd1c47cfe426f952ae5712c8573faf208774bba))
+* initialise database connection on app startup ([385f0a2](https://gitlab.com/nikodyring/tldr-dungeon-guide/commit/385f0a25faa10c3d19babac37dc0f0fff52f1518))
+* **database:** add mongo database service ([3abe8f0](https://gitlab.com/nikodyring/tldr-dungeon-guide/commit/3abe8f0646241c476e02a6ad275010d562e34b4d))
+
+
+### Other
+
+* **.env:** add mongo uri ([5efe89b](https://gitlab.com/nikodyring/tldr-dungeon-guide/commit/5efe89b5d5a36debf3bf3a73afd38984056e92da))
+* **deps:** bump node-fetch from 2.6.0 to 2.6.1 ([9344f0b](https://gitlab.com/nikodyring/tldr-dungeon-guide/commit/9344f0b07ddc9ecaeaba17d63a73fad410c5fef7))
+* **npm:** add mongoose dependency ([36e0d8a](https://gitlab.com/nikodyring/tldr-dungeon-guide/commit/36e0d8a8857fede6461d8cd6895f9c34f878d5ce))
+
 ## [1.2.0](https://gitlab.com/nikodyring/tldr-dungeon-guide/compare/v1.1.1...v1.2.0) (2020-10-05)
 
 

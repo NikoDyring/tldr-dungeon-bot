@@ -1,6 +1,7 @@
 import uncaught from 'uncaught'
 import log from './lib/log'
 import { setupClient } from './lib/client'
+import { connect } from './lib/database'
 
 log.info(`Starting bot in ${process.env.NODE_ENV} mode`)
 
@@ -10,4 +11,10 @@ uncaught.addListener(function (error: Error) {
   process.exit(1)
 })
 
+if (!process.env.MONGO_URI) {
+  log.error('No mongo URI in environment')
+  process.exit(1)
+}
+
+connect(process.env.MONGO_URI).catch(console.error.bind(console))
 setupClient()

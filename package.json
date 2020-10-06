@@ -82,6 +82,7 @@
     "discord.js": "^12.2.0",
     "dotenv": "^8.2.0",
     "erlpack": "github:discord/erlpack",
+    "mongoose": "^5.10.8",
     "pino": "^6.5.0",
     "qrcode": "^1.4.4",
     "signale": "^1.4.0",

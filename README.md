@@ -42,5 +42,5 @@ You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ```
 
-### Suggestions
+## 💡 Suggestions
 I'll gladly expand the features of the bot, in case you have any suggestions feel free to hit me up. 

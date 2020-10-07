@@ -12,6 +12,15 @@ Too Long Didn't Read Dungeon Guide is a Discord bot aimed to help both new and s
 # Shows dungeon strategy for specified dungeon by alias
 !d dos
 ```
+## Running the bot
+```
+# watch mode
+$ npm run dev
+
+# production
+$ npm run start
+```
+
 
 ## License
 

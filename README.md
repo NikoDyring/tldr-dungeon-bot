@@ -1,10 +1,10 @@
-# TLDR Dungeon Guide
+# ⚔️ TLDR Dungeon Guide ⚔️
 Too Long Didn't Read Dungeon Guide is a Discord bot aimed to help both new and seasoned veterans in World of Warcraft. It provides TLDR content regarding main content in the game such as dungeon strategies, raid strategies and covenant overviews. 
 
 [![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
-## Available Commands
+## ❕ Available Commands
 ```
 # Shows how to use the bot and lists possible aliases to search for dungeons
 !d, !dungeon
@@ -12,7 +12,7 @@ Too Long Didn't Read Dungeon Guide is a Discord bot aimed to help both new and s
 # Shows dungeon strategy for specified dungeon by alias
 !d dos
 ```
-## Running the bot
+## ⚙️Running the bot
 ```
 # watch mode
 $ npm run dev
@@ -20,9 +20,10 @@ $ npm run dev
 # production
 $ npm run start
 ```
+## 🤙 Contributing
+*To Be Determined*
 
-
-## License
+## 📒 License
 
 ```md
 TLDR Dungeon Bot

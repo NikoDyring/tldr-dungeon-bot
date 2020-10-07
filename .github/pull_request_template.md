@@ -9,3 +9,8 @@ Please delete options that are not relevant.
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Documentation update (non-breaking change which adds to the documentation)
+
+## ☑️ Checklist
+- [ ] My code follows the style guidelines of this project
+- [ ] I have made corresponding changes to the documentation
+- [ ] I have checked my code and corrected any misspellings

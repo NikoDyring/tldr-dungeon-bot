@@ -43,6 +43,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ```
 ## 🙏 Authors
 - [Nikolaj Jensen](https://github.com/NikoDyring)
+- [Nicholai Nissen](https://github.com/Nicholaiii)
 
 ## 💡 Suggestions
 I'll gladly expand the features of the bot, in case you have any suggestions feel free to hit me up. 

@@ -2,8 +2,8 @@
 Too Long Didn't Read Dungeon Guide is a Discord bot aimed to help both new and seasoned veterans in World of Warcraft. It provides TLDR content regarding main content in the game such as dungeon strategies, raid strategies and covenant overviews. 
 
 [![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)  
+[![DigitalOcean Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=15b138056f31&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 ## ❕ Available Commands
 ```
 # Shows how to use the bot and lists possible aliases to search for dungeons
